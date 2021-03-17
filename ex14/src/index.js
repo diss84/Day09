@@ -10,11 +10,10 @@ function myForLoop2 () {
        
     // Only change below above this line
         var evenInverseNumbers = "8, 6, 4, 2, 0";
-        for(var i = 0; i > evenNumber.length; i++);
+        for(var i = 0; i > evenInverseNumbers.length; i--);
         return evenInverseNumbers;
     // Only change code above this line
     }
-
 
 console.log(myForLoop1());
 console.log(myForLoop2());
